@@ -1,0 +1,57 @@
+div.RegistrationRoute {
+  background-image: url("/images/christian-wiediger-1GvSPe52xx4-unsplash.jpg");
+  min-height: 100vh;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.reg-wrapper {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  right: 25px;
+  bottom: 25px;
+  color: white;
+  padding: 25px;
+  background-color: rgba(92, 72, 72, 0.5);
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  visibility: hidden;
+}
+
+.registration-form,
+input,
+label {
+  padding: 10px;
+  margin: 20px;
+}
+
+button {
+  padding: 0.5rem 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  border-radius: remy(35px);
+  margin: 5px;
+}
+button:hover,
+button#info:hover,
+button#account:hover {
+  background-color: #8c6164;
+  cursor: pointer;
+}
+
+button#info {
+  background-color: #5a8c83;
+}
+button#account {
+  background-color: grey;
+}

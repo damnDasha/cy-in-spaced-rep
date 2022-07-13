@@ -1,0 +1,28 @@
+div.LoginRoute {
+  background-image: url("/images/christian-wiediger-1GvSPe52xx4-unsplash.jpg");
+  min-height: 100vh;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+.login-wrapper {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  right: 25px;
+  bottom: 25px;
+  color: white;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: beige;
+}
+
+header {
+  visibility: hidden;
+}
